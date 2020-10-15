@@ -18,7 +18,7 @@ namespace ToDoAzureSqlCodeFirst.Model
 
             // optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings[SglMyConnection].ConnectionString); //? funka inte ???
 
-            optionsBuilder.UseSqlServer(@"Server=tcp:sqlserver-ec.database.windows.net,1433;Initial Catalog=AzureSqlCodeFirst;Persist Security Info=False;User ID=natlee;Password=Tindra52;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            optionsBuilder.UseSqlServer(@"Server=tcp:sqlserver-ec.database.windows.net,1433;Initial Catalog=AzureSqlCodeFirst;Persist Security Info=False;User ID=natlee;Password={};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }//ta bort local connec string
     //copy connect string från azure och lägg it till app.config--- den file skickas inte in github
