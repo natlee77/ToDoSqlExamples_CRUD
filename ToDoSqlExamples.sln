@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoSql_DB_First", "ToDoSql
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAzureSqlCodeFirst", "ToDoAzureSqlCodeFirst\ToDoAzureSqlCodeFirst.csproj", "{74D594D4-C5EA-4C66-B5F7-18DB9734D7A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo_Cosmos_EntityFraimework", "ToDo_Cosmos_EntityFraimework\ToDo_Cosmos_EntityFraimework.csproj", "{6ADA498C-3D53-4EB3-A376-62AA75AF1F46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{74D594D4-C5EA-4C66-B5F7-18DB9734D7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D594D4-C5EA-4C66-B5F7-18DB9734D7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74D594D4-C5EA-4C66-B5F7-18DB9734D7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADA498C-3D53-4EB3-A376-62AA75AF1F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADA498C-3D53-4EB3-A376-62AA75AF1F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADA498C-3D53-4EB3-A376-62AA75AF1F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADA498C-3D53-4EB3-A376-62AA75AF1F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
